@@ -1,0 +1,21 @@
+{
+  "name": "forgot-password-enhancements-backend",
+  "version": "1.0.0",
+  "description": "Express backend for the forgot password enhancement",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
